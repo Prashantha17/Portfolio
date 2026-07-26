@@ -3,10 +3,10 @@ import { FileText, ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const titles = [
-    'MCA Specialist',
+    'MCA Graduated',
     'Machine Learning Developer',
     'GenAI & Prompt Engineer',
-    'Full-Stack Web Architect'
+    'Full-Stack Developer'
   ];
 
   const [text, setText] = useState('');
@@ -76,7 +76,7 @@ export default function Hero() {
             </div>
 
             <p className="hero-description">
-              I am a Master of Computer Applications (MCA) student focusing on modern Web Development, Machine Learning, and Generative AI. I design interactive interfaces and construct intelligent, AI-assisted software systems.
+              I am a Master of Computer Applications (MCA) graduate passionate about modern Web Development, Machine Learning, and Generative AI. I design interactive User interfaces and build intelligent , AI-Powered software solutions that solve real-world problems.i enjoy learning emerging technologies and creating innovative applications that combine creativity with artificial intelligence. My goal is to contribute to the tech community by developing impactful solutions and sharing knowledge with fellow developers.
             </p>
 
             <div className="hero-buttons">

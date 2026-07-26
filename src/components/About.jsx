@@ -94,7 +94,7 @@ Provide a subject line, clean body copy with placeholders, and a concise bullet 
               Engineering Intelligent Systems & Modern Webs.
             </h3>
             <p className="about-intro-text">
-              I am currently pursuing my <span style={{ color: 'var(--accent-cyan)', fontWeight: 600 }}>Master of Computer Applications (MCA)</span> at Kishkinda University. I specialize in bridging advanced **Machine Learning** pipelines and **Data Science** analytics with responsive full-stack software.
+              I am Completed my <span style={{ color: 'var(--accent-cyan)', fontWeight: 600 }}>Master of Computer Applications (MCA)</span> at Kishkinda University. I specialize in bridging advanced **Machine Learning** pipelines and **Data Science** analytics with responsive full-stack software.
             </p>
             <p className="about-philosophy">
               I am highly passionate about **Generative AI** and **Prompt Engineering**. By integrating modern AI systems—from models like ChatGPT and Claude to agentic environments like Antigravity—I construct software that is fast, context-aware, and built for future technological demands.

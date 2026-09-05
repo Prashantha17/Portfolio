@@ -102,7 +102,7 @@ export default function Hero() {
           <div className="hero-image-block">
             <div className="avatar-container">
               <img 
-                src="/profile1.jpg" 
+                src="/profile.jpeg" 
                 alt="H M Prashantha" 
                 className="avatar-image" 
                 onError={(e) => {

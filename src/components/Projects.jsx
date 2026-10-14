@@ -27,7 +27,7 @@ export default function Projects() {
         'Built low-latency WebSocket communication between Flask backend and React frontend',
         'Structured flexible MongoDB schemas to catalog complex multi-dimensional data layers'
       ],
-      demoLink: '#',
+      demoLink: 'https://3-d-data-explore.vercel.app/',
       githubLink: 'https://github.com/Prashantha17'
     },
     {
@@ -44,7 +44,7 @@ export default function Projects() {
         'Designed interactive sliders and selectors to filter specification parameters',
         'Served low-latency Flask endpoints to provide predictions under 10ms'
       ],
-      demoLink: '#',
+      demoLink: '',
       githubLink: 'https://github.com/Prashantha17'
     },
     {
@@ -61,7 +61,7 @@ export default function Projects() {
         'Developed clean, responsive frontend layouts to query local property listings',
         'Programmed administrative CRUD routes to upload note packages and listings'
       ],
-      demoLink: '#',
+      demoLink: 'https://home-rental-website-ten.vercel.app/',
       githubLink: 'https://github.com/Prashantha17'
     },
 

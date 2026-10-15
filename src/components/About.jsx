@@ -120,9 +120,9 @@ Provide a subject line, clean body copy with placeholders, and a concise bullet 
                   <div className="timeline-item">
                     <span className="timeline-year">2024 - Present</span>
                     <h4 className="timeline-title">Master of Computer Applications (MCA)</h4>
-                    <p className="timeline-desc">Kishkinda University, Bellari | CGPA: 8.6 (Pursuing 4th Sem)</p>
+                    <p className="timeline-desc">Kishkinda University, Bellari | CGPA: 8.72</p>
                     <p className="timeline-desc" style={{ marginTop: '5px', opacity: 0.8 }}>
-                      Focusing on Advanced Algorithms, Machine Learning pipelines, Generative AI models, and Relational Database Systems.
+                      Focusing on Advanced Algorithms, Machine Learning , Generative AI models, Relational Database Systems,Full Stack Development.
                     </p>
                   </div>
                   <div className="timeline-item">
@@ -146,22 +146,22 @@ Provide a subject line, clean body copy with placeholders, and a concise bullet 
               {activeTab === 'aiPlayground' && (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', animation: 'fade-in 0.4s ease' }}>
                   <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-                    <button 
-                      onClick={() => { setSelectedPromptTemplate('coding'); setCustomPrompt(promptTemplates.coding.raw); setOptimizationState('idle'); }} 
+                    <button
+                      onClick={() => { setSelectedPromptTemplate('coding'); setCustomPrompt(promptTemplates.coding.raw); setOptimizationState('idle'); }}
                       className={`skill-category-btn ${selectedPromptTemplate === 'coding' ? 'active' : ''}`}
                       style={{ padding: '8px 16px', fontSize: '0.85rem' }}
                     >
                       Python Coding
                     </button>
-                    <button 
-                      onClick={() => { setSelectedPromptTemplate('data'); setCustomPrompt(promptTemplates.data.raw); setOptimizationState('idle'); }} 
+                    <button
+                      onClick={() => { setSelectedPromptTemplate('data'); setCustomPrompt(promptTemplates.data.raw); setOptimizationState('idle'); }}
                       className={`skill-category-btn ${selectedPromptTemplate === 'data' ? 'active' : ''}`}
                       style={{ padding: '8px 16px', fontSize: '0.85rem' }}
                     >
                       Data Science
                     </button>
-                    <button 
-                      onClick={() => { setSelectedPromptTemplate('prompting'); setCustomPrompt(promptTemplates.prompting.raw); setOptimizationState('idle'); }} 
+                    <button
+                      onClick={() => { setSelectedPromptTemplate('prompting'); setCustomPrompt(promptTemplates.prompting.raw); setOptimizationState('idle'); }}
                       className={`skill-category-btn ${selectedPromptTemplate === 'prompting' ? 'active' : ''}`}
                       style={{ padding: '8px 16px', fontSize: '0.85rem' }}
                     >
@@ -171,15 +171,15 @@ Provide a subject line, clean body copy with placeholders, and a concise bullet 
 
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                     <label style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Raw Input Prompt:</label>
-                    <textarea 
-                      value={customPrompt} 
+                    <textarea
+                      value={customPrompt}
                       onChange={(e) => { setCustomPrompt(e.target.value); setOptimizationState('idle'); }}
                       className="form-textarea-element"
                       style={{ minHeight: '60px', padding: '10px 14px', fontSize: '0.9rem' }}
                     />
                   </div>
 
-                  <button 
+                  <button
                     onClick={handleOptimize}
                     disabled={optimizationState === 'optimizing'}
                     className="btn-primary"
@@ -191,13 +191,13 @@ Provide a subject line, clean body copy with placeholders, and a concise bullet 
                   {optimizationState === 'complete' && (
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', animation: 'scale-up 0.3s ease' }}>
                       <label style={{ fontSize: '0.85rem', color: 'var(--accent-cyan)', fontWeight: 600 }}>Optimized Prompt System Shell:</label>
-                      <pre 
-                        style={{ 
-                          background: 'rgba(6, 182, 212, 0.04)', 
+                      <pre
+                        style={{
+                          background: 'rgba(6, 182, 212, 0.04)',
                           border: '1px solid rgba(6, 182, 212, 0.15)',
-                          borderRadius: '10px', 
-                          padding: '16px', 
-                          whiteSpace: 'pre-wrap', 
+                          borderRadius: '10px',
+                          padding: '16px',
+                          whiteSpace: 'pre-wrap',
                           fontSize: '0.85rem',
                           fontFamily: 'monospace',
                           color: 'var(--text-primary)',
@@ -238,7 +238,7 @@ Provide a subject line, clean body copy with placeholders, and a concise bullet 
                       </p>
                     </div>
                   </div>
-                  
+
                   <div style={{ display: 'flex', gap: '15px', alignItems: 'flex-start' }}>
                     <div style={{ color: 'var(--accent-purple)', marginTop: '4px' }}>
                       <Sparkles size={24} />

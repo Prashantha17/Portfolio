@@ -338,13 +338,27 @@ export default function Projects() {
                   </svg>
                   Source Code
                 </a>
-                <button
-                  onClick={() => { alert('Live demonstration is currently in staging mode.'); }}
-                  className="btn-secondary"
-                >
-                  <ExternalLink size={18} />
-                  Live Preview
-                </button>
+                {selectedProject.demoLink ? (
+                  <a
+                    href={selectedProject.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-secondary"
+                  >
+                    <ExternalLink size={18} />
+                    Live Preview
+                  </a>
+                ) : (
+                  <button
+                    className="btn-secondary"
+                    disabled
+                    style={{ opacity: 0.5, cursor: 'not-allowed' }}
+                    title="Demo coming soon"
+                  >
+                    <ExternalLink size={18} />
+                    Coming Soon
+                  </button>
+                )}
               </div>
             </div>
           </div>

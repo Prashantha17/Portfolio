@@ -52,8 +52,8 @@ export default function Projects() {
       title: 'Home Rental Web Application',
       category: 'database',
       shortDesc: 'Full-stack property rental portal for listing management, booking systems, and user profiles.',
-      longDesc: 'A comprehensive property marketplace developed with Flask and MySQL. Integrates robust authentication frameworks, secure listings uploads, and booking databases to coordinate property transactions and tenant-landlord communication.',
-      tags: ['Flask', 'MySQL', 'JavaScript', 'HTML5', 'CSS3'],
+      longDesc: 'A comprehensive property marketplace developed with FastAPI and MySQL. Integrates robust authentication frameworks, secure listings uploads, and booking databases to coordinate property transactions and tenant-landlord communication.',
+      tags: ['React js','FastAPI', 'MySQL', 'JavaScript', 'HTML5', 'python','NLP'],
       image: '/home_rental.png',
       highlights: [
         'Built secure login profiles and session authentication triggers',

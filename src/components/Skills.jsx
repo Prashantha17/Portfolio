@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Cpu, Terminal, Coffee, Database, Globe, Atom, Server, GitBranch, Layers, Sparkles, Bot, Zap, Brain, Search, Code2, Wrench } from 'lucide-react';
+import { Cpu, Terminal, Coffee, Database, Globe, Atom, Server, GitBranch, Layers, Sparkles, Bot, Zap, Brain, Search, Code2, Wrench, ToolCase } from 'lucide-react';
 
 export default function Skills() {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -36,6 +36,7 @@ export default function Skills() {
     { title: 'VS Code', percentage: 95, icon: <Code2 size={22} />, category: 'tools' },
     { title: 'PyCharm', percentage: 88, icon: <Terminal size={22} />, category: 'tools' },
     { title: 'Eclipse IDE', percentage: 82, icon: <Coffee size={22} />, category: 'tools' },
+    {title : 'MongoDB ', percentage:60 ,icon:<Database size ={23}/> ,category:'tools'},
     { title: 'SQL & DBMS', percentage: 75, icon: <Database size={22} />, category: 'tools' },
     { title: 'Git & Version Control', percentage: 85, icon: <GitBranch size={22} />, category: 'tools' }
   ];
